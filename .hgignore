@@ -1,0 +1,6 @@
+# Ignore file for Melligo project
+syntax: glob
+
+*.pyc
+*~
+*.swp
