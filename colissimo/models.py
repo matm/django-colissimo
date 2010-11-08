@@ -48,14 +48,15 @@ class Region(models.Model):
 
 	@staticmethod
 	def get_region_from_country(country):
-		if type(country) != types.StringType:
-			raise TypeError, "Country must be a string"
-		cty = country.strip()
+		if type(country) != types.StringType and type(country) != types.UnicodeType:
+			raise TypeError, "Country must be a string, not %s" % type(country)
+		cty = country.strip().lower()
 		# France
 		zones = (Region.FMA, Region.OM1, Region.OM2, Region.IZA, Region.IZB, Region.IZC, Region.IZD)
 		for k in range(len(zones)):
-			if cty in zones[k]:
-				return Region.objects.get(name__contains=Region._lookup[k])
+			for z in zones[k]:
+				if cty == z.strip().lower():
+					return Region.objects.get(name__contains=Region._lookup[k])
 		return None
 
 	def __repr__(self):
@@ -92,8 +93,8 @@ class Rate(models.Model):
 		Example: lowest rate for a 4.2 kg box to France:
 		         Rate.get_rates('France', 4.2).get(recommanded__level='R0')
 		"""
-		if type(country) != types.StringType:
-			raise TypeError, "Country must be a string"
+		if type(country) != types.StringType and type(country) != types.UnicodeType:
+			raise TypeError, "Country must be a string, not %s" % type(country)
 		if type(weight) != types.FloatType and type(weight) != types.IntType:
 			raise TypeError, "Weight must be a float"
 		if weight < 0 or weight > 30:
