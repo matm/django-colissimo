@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-09 13:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Mathias Monnerville <mathias@monnerville.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+
+#: templates/colissimo/features.html:5
+msgid "Colissimo features for this order"
+msgstr "Options Colissimo disponibles pour cette commande"
+
+#: templates/colissimo/features.html:7
+msgid "Total weight"
+msgstr "Poids total"
+
+#: templates/colissimo/features.html:8
+msgid "Signature on delivery"
+msgstr "Remise contre signature"
+
+#: templates/colissimo/features.html:9
+msgid "Deposit proof"
+msgstr "Preuve de depot"
+
+#: templates/colissimo/features.html:10
+msgid "Tracking number"
+msgstr "Numero pour suivis du colis"
+
+#: templates/colissimo/features.html:11
+msgid "Region"
+msgstr ""
+
+#: templates/colissimo/features.html:12
+msgid "Recommanded level"
+msgstr "Taux de recommandation"
