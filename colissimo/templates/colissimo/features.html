@@ -1,0 +1,13 @@
+{{ order }}<br/>
+{% load i18n %}
+
+<hr/>
+<div>{% trans "Colissimo features for this order" %}:</div>
+<ul>
+	<li>{% trans "Total weight" %}: {{ order_weight|floatformat:-2 }} kg</li>
+	<li>{% trans "Signature on delivery" %}: {{ rate.signature }}</li>
+	<li>{% trans "Deposit proof" %}: {{ rate.deposit }}</li>
+	<li>{% trans "Tracking number" %}: {{ rate.tracking }}</li>
+	<li>{% trans "Region" %}: {{ rate.region.name }}</li>
+	<li>{% trans "Recommanded level" %}: {{ rate.recommanded.level }}</li>
+</ul>
