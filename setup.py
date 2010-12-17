@@ -14,7 +14,7 @@ setup(
     name = 'django-colissimo',
     version = version,
     description = "colissimo",
-    long_description = """Django-Colissimo provides the ability to get prices from the La Poste Colissimo postal service.""",
+    long_description = """django-colissimo provides the ability to get prices from the La Poste Colissimo postal service.""",
     author = 'Mathias Monnerville',
     author_email = 'mathias@monnerville.com',
     url = '',

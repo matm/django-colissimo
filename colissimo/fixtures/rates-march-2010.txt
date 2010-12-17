@@ -1,15 +1,19 @@
-# Rates from 'La Poste Colissimo' / March 2010
 #
-# Author: Mathias Monnerville <mathias@monnerville.com>
-# This file is part of the django-colissmo module
+# Rates from 'La Poste Colissimo' from France / March 2010
 #
-# This file is parsed by the 'genfixtures.py' script which generates the corresponding
-# initial fixture data to load into the database (on syncdb)
+# This file is part of the django-colissimo module
+#
+# Official docs: http://www.laposte.fr/content/download/7759/57850/file/Tarifs%20au%20d%C3%A9part%20de%20France%20M%C3%A9tropolitaine%20%C3%A0%20compter%20du%201%20mars%202010%20.pdf?espace=particulier
+#
+# This file is parsed by the 'genfixtures.py' script (in the same directory)
+# which generates the initial fixture data to load into the database (using syncdb)
 #
 # Everything after a '#' is ignored (comments)
 # Spaces between comas are ignored
 # Lines starting with '::' must be a coma-separated line of values for (in this order):
 #  model_name,fieldname1,fieldname2,...
+#
+# Author: Mathias Monnerville <mathias@monnerville.com>
 #
 
 # All supported regions
