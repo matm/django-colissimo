@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = (0, 5, 1)
+VERSION = (0, 5, 2)
 
 # Dynamically calculate the version based on VERSION tuple
 if len(VERSION)>2 and VERSION[2] is not None:
@@ -13,7 +13,7 @@ version= str_version
 setup(
     name = 'django-colissimo',
     version = version,
-    description = "colissimo",
+    description = "Django app to get shipping prices from La Poste Colissimo",
     long_description = """django-colissimo provides the ability to get prices from the La Poste Colissimo postal service.""",
     author = 'Mathias Monnerville',
     author_email = 'mathias@monnerville.com',
