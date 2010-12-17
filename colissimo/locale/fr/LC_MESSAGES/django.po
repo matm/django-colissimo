@@ -40,7 +40,7 @@ msgstr "Numero pour suivis du colis"
 
 #: templates/colissimo/features.html:11
 msgid "Region"
-msgstr ""
+msgstr "Région"
 
 #: templates/colissimo/features.html:12
 msgid "Recommanded level"
