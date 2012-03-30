@@ -17,7 +17,7 @@ setup(
     long_description = """django-colissimo provides the ability to get prices from the La Poste Colissimo postal service.""",
     author = 'Mathias Monnerville',
     author_email = 'mathias@monnerville.com',
-	url = 'https://bitbucket.org/matm/django-colissimo',
+	url = 'https://github.com/matm/django-colissimo',
     license = 'GPL 3',
     platforms = ['any'],
     classifiers = [
