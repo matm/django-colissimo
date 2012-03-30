@@ -3,7 +3,7 @@
 #
 # This file is part of the django-colissimo module
 #
-# Official docs: http://www.laposte.fr/content/download/7759/57850/file/Tarifs%20au%20d%C3%A9part%20de%20France%20M%C3%A9tropolitaine%20%C3%A0%20compter%20du%201%20mars%202010%20.pdf?espace=particulier
+# Official docs: http://www.colissimo.fr/particuliers/envoyer_un_colis/decouvrir_loffre_colissimo/Tarifs_colissimo/Tarifs_colissimo.jsp
 #
 # This file is parsed by the 'genfixtures.py' script (in the same directory)
 # which generates the initial fixture data to load into the database (using syncdb)
