@@ -88,7 +88,6 @@ class Region(models.Model):
 		zones = (Region.FMA, Region.OM1, Region.OM2, Region.IZA, Region.IZB, Region.IZC, Region.IZD)
 		for k in range(len(zones)):
 			for z in zones[k]:
-				print cty, z.strip().lower()
 				if cty == z.strip().lower():
 					return Region.objects.get(name__contains=Region._lookup[k])
 		return None
